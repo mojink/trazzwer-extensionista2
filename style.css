@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #DBE2EF;
+}
+
+header {
+    background-color: #3674B5;
+}
+
+#nav-title {
+    margin: auto;
+    text-align: center;
+    color: #f9f7f7;
+    font-size: 1.2rem;
+}
+
+#container-nav {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9F7F7;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+
+.content-div {
+    width: 55%;
+    margin: auto;
+}
+
+.contact-div {
+    width: 900px;
+    margin: 30px auto;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#info-name-area, #info-email-area {
+   width: 300px;
+   height: 25px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+}
+
+#msg-area {
+    height: 200px;
+    width: 500px;    
+    
+}
+
+.content-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+#button { 
+    font-size: 15px;
+    width: 75px;
+    height: 30px;
+    border-radius: 7px; 
+    color: black;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    border: none;
+    justify-items: center; 
+}
+
+#button:hover { 
+    background-color: #112D4E;
+    color: #f9f7f7; 
+    font-weight: bold; 
+    width: 90px; 
+    height: 35px;
+}
+
+.content {
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+
+#span {
+    color: #901E3E;
+}
+
+.container-image {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+    margin-top: 15px;  
+}
+
+#footer-div {
+    text-align: center;
+    margin: auto;
+    background-color: #578FCA;
+    width: 250px;
+    padding: 4px;
+    color: #f9f7f7;
+    margin-top: 35px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.contact-div > form {
+    margin-top: 10px;
+}
+
+.inst-img {
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    border: 2px black solid;
+}
+
+.content-inst {
+    font-size: 1.14rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.info-title {
+    font-size: 1.3rem;
+}
+
+.maps-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+iframe {
+    height: 500px;
+    width: 70%;
+}
+
+.inst {
+    font-size: 2.1rem;
+    margin-top: 40px;
+    color: #112D4E;
+}
+
+.inst:hover {
+    font-size: 2.5rem;
+    color: #901E3E;
+}

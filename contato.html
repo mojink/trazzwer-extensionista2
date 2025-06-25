@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav-title">
+            <h1 id="title">Trazzwer</h1>
+        </div>
+
+        <div id="container-nav">
+            <a href="./index.html"><img src="./svgs/house.svg" height="23px" alt="home" ></a>
+            <a href="./instituicoes.html">Instituições</a>
+            <a href="./contato.html">Contato</a>
+            <a href="./sobre.html">Sobre</a>
+        </div>
+    </header>
+
+    <div class="contact-container">
+        <div class="contact-div">
+            <h2>Gostaria de entrar em contato?</h2>
+            <p>Fique a vontade para passar feedbacks ou entrar em contato para cadastro:</p>
+            <p>E-mail: <span id="span">trazzwerbgi@gmail.com</span></p>
+            <p>Caso queira mandar uma mensagem rápida, escreva uma mensagem:</p>
+                <form action="" class="form-container">
+                    <span>Nome/Instituição:</span>
+                    <textarea name="" id="info-name-area"></textarea>
+                    <span>E-mail:</span>
+                    <textarea name="" id="info-email-area"></textarea>
+                    <span>Mensagem:</span>
+                    <textarea name="" id="msg-area"></textarea>
+                    <br>
+                    <button id="button" onclick="enviarEmail()">Enviar</button>
+                </form>
+            <p>Estarei em aguardo de seu feedback ou cadastro!</p>
+        </div>
+    </div>
+
+
+
+<div id="footer-div"><footer><h5>Trazzwer © All rights reserved</h5></footer></div>
+<script>
+    function enviarEmail() {
+        mensagemEnviada = window.alert("Mensagem Enviada!\nObrigado!");
+    }
+</script>
+
+</body>
+</html>
